@@ -1,0 +1,18 @@
+{
+  "status": 200,
+  "headers": {
+    "server": "nginx/1.22.0",
+    "date": "Mon, 27 Jun 2022 17:50:26 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "close",
+    "expires": "Mon, 27 Jun 2022 18:50:26 GMT",
+    "cache-control": "max-age=3600, public",
+    "pragma": "public",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET",
+    "access-control-allow-headers": "Content-Type, X-Request-With, X-Requested-By",
+    "access-control-allow-credentials": "true",
+    "access-control-max-age": "86400"
+  }
+}

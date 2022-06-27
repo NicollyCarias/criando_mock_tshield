@@ -1,0 +1,19 @@
+request:
+  timeout: 8
+  
+domains:
+  'https://viacep.com.br/':
+    name: 'viaCep'
+    not_save_headers:
+      -transfer-encoding
+    paths:
+      - \/ws\/\d+\/json
+
+  'https://pokeapi.co/':
+    name: 'APIpokemon'
+    not_save_headers:
+      -transfer-encoding
+    paths:
+      - \/api\/v2\/pokemon\/\D+
+      - \/api\/v2\/pokemon\?limit\=\d+\&offset=\d+
+      - \/api\/v2\/pokemon\/\d+
